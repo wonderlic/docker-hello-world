@@ -1,4 +1,4 @@
-FROM node:6.11.4-alphine
+FROM node:6.11.4-alpine
 MAINTAINER Wonderlic DevOps <DevOps@wonderlic.com>
 
 COPY server.js /app/server.js
